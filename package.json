@@ -1,0 +1,30 @@
+{
+  "name": "yield-space",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An interest-rate market as a Uniswap v4 pool: the curve quotes a yield rather than a price, and converges to par at maturity on its own.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/yield-space.git"
+  },
+  "homepage": "https://yield-space.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "curve",
+    "custom-curve",
+    "fixed-rate",
+    "maturity",
+    "rates"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}

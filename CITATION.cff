@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "yield-space"
+abstract: "An interest-rate market as a Uniswap v4 pool: the curve quotes a yield rather than a price, and converges to par at maturity on its own."
+license: Apache-2.0
+repository-code: "https://github.com/nirholas/yield-space"
+url: "https://three.ws"
+authors:
+  - name: three.ws
+    website: "https://three.ws"
